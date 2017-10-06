@@ -1,0 +1,15 @@
+#Root {
+	position: static;
+
+	@extend %widthFull;
+	@extend %heightFull;
+}
+
+div, span,
+header, footer,
+a, p,
+h1, h2, h3, h4, h5, h6,
+li,
+input, textarea {
+	line-height: 1.25;
+}

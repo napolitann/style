@@ -1,0 +1,8 @@
+html {
+	background-color: lighten(black, 96%);
+	color: lighten(black, 50%);
+	font-size: $sizeRootFontSize;
+
+	@extend %widthFull;
+	@extend %heightFull;
+}

@@ -1,0 +1,9 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	background-color: rgba(black, 0.04);
+
+	@extend %widthFull;
+	@extend %heightFull;
+}
