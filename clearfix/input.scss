@@ -4,15 +4,11 @@ input, textarea {
 	font-size: 1rem;
 
 	margin: 0;
-	margin-bottom: 1rem;
-	padding: 1rem;
+	padding: 0.5rem;
 
-	background-color: rgba(white, 0);
+	background-color: white;
 	outline: none;
 	border: 0;
-	border-bottom: 1px solid rgba(black, 0.25);
 
-	&:hover {
-		border-color: lighten(black, 25%);
-	}
+	resize: none;
 }
