@@ -1,5 +1,13 @@
 {
   "name": "style",
   "version": "0.0.0",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run dev:index",
+    "dev:index": "node-sass -w index.scss",
+    "dev:clearfix": "node-sass -w clearfix.scss",
+    "build": "npm run build:index && npm run build:clarfix",
+    "build:index": "node-sass index.scss index.css",
+    "build:clearfix": "node-sass clearfix.scss clearfix.css"
+  }
 }
